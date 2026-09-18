@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Billmayy — Our Little World</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #fff7fb;
+      color: #332b31;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px;
+      background: linear-gradient(135deg, #fff0f7, #f8f1ff);
+    }
+
+    .hero {
+      max-width: 700px;
+    }
+
+    .heart {
+      font-size: 55px;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 10vw, 80px);
+      font-weight: 700;
+      letter-spacing: -2px;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      font-size: 19px;
+      color: #756b73;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 25px;
+      border-radius: 30px;
+      background: #d98bb5;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 35px;
+    }
+
+    .story {
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+      color: #665c63;
+    }
+
+    .albums {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .album {
+      background: white;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 8px 25px rgba(80, 50, 70, 0.08);
+    }
+
+    .album h3 {
+      margin-bottom: 8px;
+    }
+
+    .album p {
+      color: #81757d;
+      font-size: 14px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .photo {
+      aspect-ratio: 1 / 1;
+      border-radius: 18px;
+      background: #f0dce8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #987d8c;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #f5e8f0;
+      color: #796d75;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+      <div class="heart">♡</div>
+
+      <h1>Billmayy</h1>
+
+      <p class="subtitle">
+        Our Little World
+      </p>
+
+      <p class="subtitle">
+        Sebuah tempat kecil untuk menyimpan cerita,
+        kenangan, dan perjalanan kita.
+      </p>
+
+      <a href="#story" class="button">
+        Masuk ke cerita kita
+      </a>
+    </div>
+  </header>
+
+  <section id="story">
+    <h2 class="section-title">Our Story</h2>
+
+    <div class="story">
+      <p>
+        Setiap perjalanan punya cerita.
+        Setiap foto menyimpan sebuah momen.
+        Dan setiap momen bersama adalah bagian
+        dari cerita kita.
+      </p>
+
+      <br>
+
+      <p>
+        Selamat datang di dunia kecil Billmayy.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Album Kenangan</h2>
+
+    <div class="albums">
+
+      <div class="album">
+        <h3>Awal Cerita</h3>
+        <p>Tempat untuk menyimpan kenangan awal perjalanan kita.</p>
+      </div>
+
+      <div class="album">
+        <h3>Hari-Hari Kita</h3>
+        <p>Momen sederhana yang ternyata sangat berarti.</p>
+      </div>
+
+      <div class="album">
+        <h3>Perjalanan</h3>
+        <p>Tempat untuk menyimpan cerita dari setiap perjalanan.</p>
+      </div>
+
+      <div class="album">
+        <h3>Untuk Selamanya</h3>
+        <p>Kenangan yang ingin kita simpan dan lihat kembali.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Gallery</h2>
+
+    <div class="gallery">
+
+      <div class="photo">
+        Foto kenangan pertama
+      </div>
+
+      <div class="photo">
+        Foto kenangan kedua
+      </div>
+
+      <div class="photo">
+        Foto kenangan ketiga
+      </div>
+
+      <div class="photo">
+        Foto kenangan keempat
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Billmayy — Our Little World</p>
+    <p>Made with love ♡</p>
+  </footer>
+
+</body>
+</html>
